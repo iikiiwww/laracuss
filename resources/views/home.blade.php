@@ -50,29 +50,29 @@
         <div class="row align-item-center h-100">
           <div class="col-12 col-lg-6">
             <h1>MASJID <br/>NURUL IMAN</h1>
-            <p class="mb-4">MASJID</p>
+            <p class="mb-4">DUSUN CIKALING 2</p>
             <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">sign up</a>
             <a href="#" class="btn btn-secondary mb-2 mb-lg-0">history</a>
           </div>
           <div class="col-12 col-6 h-315px order-first order-lg-last mb-3 mb-lg-0">
-            <img class="hero-image float-lg-end" src="{{ url('assets/images/masjid.png')}}" alt="" >
+            <img class="hero-image float-lg-end" src="{{ url('assets/images/masjid1.png')}}" alt="" >
           </div>
 
         </div>
       </section>
       <section class="container min-h-372px">
         <div class="row">
-          <div class="col-12 col-lg-14 text-center">
+          <div class="col-12 col-lg-4 text-center">
             <img class="promote-icon mb-2" src="{{ url('assets/images/hahay.png')}}" alt="komentar">
             <h2>komentar</h2>
             <p class="fs-3">23232</p>
           </div>
-          <div class="col-12 col-lg-14 text-center">
+          <div class="col-12 col-lg-4 text-center">
             <img class="promote-icon mb-2" src="{{ url('assets/images/awok.png')}}" alt="user">
             <h2>user</h2>
             <p class="fs-3">34762</p>
           </div>
-          <div class="col-12 col-lg-14 text-center">
+          <div class="col-12 col-lg-4 text-center">
             <img class="promote-icon mb-2" src="{{ url('assets/images/yaya.png')}}" alt="share">
             <h2>share</h2>
             <p class="fs-3">24382</p>
