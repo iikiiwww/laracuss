@@ -51,8 +51,6 @@
           <div class="col-12 col-lg-6">
             <h1>MOBILE LEGENDS <br/>BANG BANG</h1>
             <p class="mb-4">TOP UP DAN JOKI</p>
-            <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Event</a>
-            <a href="#" class="btn btn-secondary mb-2 mb-lg-0">tournamen</a>
           </div>
           <div class="col-4 col-4 h-315px order-first order-lg-last mb-3 mb-lg-0">
             <img class="hero-image float-lg-end" src="{{ url('assets/images/rank.png')}}" alt="mawi" >
@@ -82,15 +80,15 @@
       <section class="bg-gray">
         <div class="container py-80px" >
           <h2  class="text-center mb-5">ADMIN</h2>
-          <div class="row">
-            <div class="col-12 col-lg-4 mb3">
-              <div class="card">
-                <a href="https://www.instagram.com/_iikiiwww/?hl=en" target="_blank"> 
-                  <img src="{{ url('assets/images/ig.png')}}" alt="" width="100px" height="100px" >
-                </a>
-                <div>
-                  <p>
-                    INSTAGRAM
+                  <div class="row">
+                    <div class="col-12 col-lg-4 mb3">
+                      <div class="card">
+                        <a href="https://www.instagram.com/_iikiiwww/?hl=en" target="_blank"> 
+                          <img src="{{ url('assets/images/ig.png')}}" alt=""  width="100px" height="100px" >
+                        </a>
+                        <div>
+                  <p class="mb-5">
+                    klik saja logo instagram ini , untuk menghubungi admin lebih lanjut sekian terimakasih.
                   </p>
                   <div class="row">
                     <div class="col me-1 me-lg-2">
@@ -99,15 +97,66 @@
                       </span>
                       </a>
                     </div>
+                    <div class="col-5 col-lg-7">
+                      <div class="avatar-sm-wrapper d-inline-block">
+                        <a href="#" class="me-1">
+                          <img src="{{ url('assets/images/bulet.png')}}" class="avatar rounded-circle" alt="">
+                        </a>
+                      </div>
+                      <span class="fs-12">
+                        <a class="me-1 fw-bold">Rifki</a>
+                        <span class="color-gray">1 hours ago</span>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </section>
+      <section class="container min-h-372px d-flex flex-column align-items-center justify-conten-center">
+        <h2>Bagaimana dengan Pelayanan Kami?</h2>
+        <p class="mb-4">silahkan pilih di bawah ini</p>
+        <div class="text-center">
+          <a href="#" class="btn btn-secondary mb-1 mb-lg-0" style="font-size: 50pt">🤩</a>
+          <a href="#" class="btn btn-secondary mb-1 mb-lg-0" style="font-size: 50pt">😡</a>
+        </div>
+      </section>
+      <footer class="py-80px">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+              <img src="{{ url('assets/images/RifkiStore.png')}}" alt="rifkistore" class="h-32px mb-4">
+              <p class="text-white">Senang melayani anda <br/>anda senang kami ikut senang</p>
+            </div>
+            <div class="col-12 col-lg-6 mb-5 me-auto">
+              <div class="d-flex flex-column flex-lg-row justify-content-end">
+                <div class="d-flex flex-column me-140px mb-3 mb-lg-0">
+                <p class="fw-bold fs-5 text-white text-nowrap">
+                  Email
+                </p>
+                <ul class="list-unstyled">
+                  <li class="text-white">
+                    <a href="mailto:kenthod74@gmail.com" target="_blank">kenthod74@gmail.com</a></li>
+                </ul>                  
+                </div>
+                <div class="d-flex flex-column">
+                  <p class="fw-bold fs-5 text-white">Links</p>
+                  <ul class="list-unstyled">
+                    <li class="text-white mb-2"><a href="#">Home</a></li>
+                    <li class="text-white mb-2"><a href="#">Discusiion</a></li>
+                    <li class="text-white mb-2"><a href="#">About us</a></li>
+                  </ul>                  
+                </div>
 
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+     
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </body>
 </html>
